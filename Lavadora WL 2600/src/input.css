@@ -1,0 +1,53 @@
+@tailwind utilities;
+
+@font-face {
+  font-family: FontLight;
+  src: url(./Uni_Sans/Uni_Sans_Light.ttf);
+}
+
+@font-face {
+  font-family: Font;
+  src: url(./Uni_Sans/Uni_Sans.ttf);
+}
+
+@font-face {
+  font-family: FontSemiBold;
+  src: url(./Uni_Sans/Uni_Sans_SemiBold.ttf);
+}
+
+@font-face {
+  font-family: FontBold;
+  src: url(./Uni_Sans/Uni_Sans_Bold.ttf);
+}
+
+@font-face {
+  font-family: FontBook;
+  src: url(./Uni_Sans/Uni_Sans_Book.ttf);
+}
+
+.font-light {
+  font-family: FontLight;
+}
+
+.font {
+  font-family: Font;
+}
+
+.font-semibold {
+  font-family: FontSemiBold;
+}
+
+.font-bold {
+  font-family: FontBold;
+}
+
+.font-book {
+  font-family: FontBook;
+}
+
+* {
+  font-family: Font;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
