@@ -2,27 +2,27 @@
 
 @font-face {
   font-family: FontLight;
-  src: url(./Uni_Sans/Uni_Sans_Light.ttf);
+  src: url(./font/Uni_Sans_Light.ttf);
 }
 
 @font-face {
   font-family: Font;
-  src: url(./Uni_Sans/Uni_Sans.ttf);
+  src: url(./font/Uni_Sans.ttf);
 }
 
 @font-face {
   font-family: FontSemiBold;
-  src: url(./Uni_Sans/Uni_Sans_SemiBold.ttf);
+  src: url(./font/Uni_Sans_SemiBold.ttf);
 }
 
 @font-face {
   font-family: FontBold;
-  src: url(./Uni_Sans/Uni_Sans_Bold.ttf);
+  src: url(./font/Uni_Sans_Bold.ttf);
 }
 
 @font-face {
   font-family: FontBook;
-  src: url(./Uni_Sans/Uni_Sans_Book.ttf);
+  src: url(./font/Uni_Sans_Book.ttf);
 }
 
 .font-light {

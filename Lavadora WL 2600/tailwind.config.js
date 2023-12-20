@@ -7,7 +7,7 @@ module.exports = {
         "zinc-400": "#434343",
       },
       fontSize: {
-        base: "18px",
+        base: "16px",
       },
     },
     fontWeight: {},

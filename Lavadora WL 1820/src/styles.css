@@ -366,8 +366,16 @@
   line-height: 2rem;
 }
 
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
+.text-\[12pt\] {
+  font-size: 12pt;
+}
+
+.text-\[13pt\] {
+  font-size: 13pt;
+}
+
+.text-\[19pt\] {
+  font-size: 19pt;
 }
 
 .text-base {
@@ -385,9 +393,24 @@
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[16pt\] {
+  font-size: 16pt;
+}
+
+.text-\[15pt\] {
+  font-size: 15pt;
+}
+
+.text-\[24pt\] {
+  font-size: 24pt;
+}
+
+.text-\[32pt\] {
+  font-size: 32pt;
+}
+
+.text-\[34pt\] {
+  font-size: 34pt;
 }
 
 .uppercase {
@@ -493,16 +516,6 @@
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
@@ -632,6 +645,10 @@
     padding-top: 2rem;
   }
 
+  .md\:pt-4 {
+    padding-top: 1rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -659,9 +676,16 @@
     line-height: 2.5rem;
   }
 
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:text-\[36px\] {
+    font-size: 36px;
+  }
+
+  .md\:text-\[54px\] {
+    font-size: 54px;
   }
 
   .md\:text-base {
@@ -669,9 +693,8 @@
     line-height: 1.5rem;
   }
 
-  .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
+  .md\:text-\[33px\] {
+    font-size: 33px;
   }
 }
 
@@ -690,19 +713,13 @@
     line-height: 2.5rem;
   }
 
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
+  .lg\:text-\[64px\] {
+    font-size: 64px;
   }
 
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
   }
 }
 
