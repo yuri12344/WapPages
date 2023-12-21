@@ -118,6 +118,10 @@
   height: 100%;
 }
 
+.h-\[84\%\] {
+  height: 84%;
+}
+
 .max-h-\[40rem\] {
   max-height: 40rem;
 }
@@ -353,6 +357,14 @@
   line-height: 1.25rem;
 }
 
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -369,6 +381,10 @@
 .text-zinc-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
+}
+
+.text-\[16ot\] {
+  color: 16ot;
 }
 
 @font-face {
@@ -600,6 +616,10 @@
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:max-w-xs {
     max-width: 20rem;
   }
@@ -616,6 +636,14 @@
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[33px\] {
+    font-size: 33px;
+  }
+
+  .lg\:text-\[18px\] {
+    font-size: 18px;
   }
 }
 
