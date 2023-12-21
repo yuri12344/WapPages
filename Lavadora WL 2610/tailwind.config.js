@@ -6,9 +6,6 @@ module.exports = {
       colors: {
         "zinc-400": "#434343",
       },
-      fontSize: {
-        base: "16px",
-      },
     },
     fontWeight: {},
   },

@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "zinc-400": "#434343",
+      },
+    },
     fontWeight: {},
   },
   plugins: [],

@@ -630,10 +630,6 @@
     font-size: 18px;
   }
 
-  .md\:text-\[31px\] {
-    font-size: 31px;
-  }
-
   .md\:text-\[33px\] {
     font-size: 33px;
   }
@@ -661,8 +657,8 @@
     line-height: 2.25rem;
   }
 
-  .lg\:text-\[31px\] {
-    font-size: 31px;
+  .lg\:text-\[33px\] {
+    font-size: 33px;
   }
 
   .lg\:text-\[64px\] {
@@ -672,10 +668,6 @@
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[33px\] {
-    font-size: 33px;
   }
 }
 
