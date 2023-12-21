@@ -110,20 +110,28 @@
   height: 20rem;
 }
 
-.h-\[82\%\] {
-  height: 82%;
+.h-\[84\%\] {
+  height: 84%;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-\[84\%\] {
-  height: 84%;
-}
-
 .max-h-\[40rem\] {
   max-height: 40rem;
+}
+
+.max-h-96 {
+  max-height: 24rem;
+}
+
+.max-h-\[30rem\] {
+  max-height: 30rem;
+}
+
+.max-h-\[46rem\] {
+  max-height: 46rem;
 }
 
 .w-1\/2 {
@@ -152,6 +160,10 @@
 
 .w-full {
   width: 100%;
+}
+
+.w-\[46\%\] {
+  width: 46%;
 }
 
 .max-w-\[18rem\] {
@@ -311,6 +323,11 @@
   padding-bottom: 4rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -331,11 +348,6 @@
   text-align: end;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-\[12pt\] {
   font-size: 12pt;
 }
@@ -348,6 +360,10 @@
   font-size: 16pt;
 }
 
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .text-\[19pt\] {
   font-size: 19pt;
 }
@@ -355,14 +371,6 @@
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[28px\] {
-  font-size: 28px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
 }
 
 .uppercase {
@@ -381,10 +389,6 @@
 .text-zinc-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
-}
-
-.text-\[16ot\] {
-  color: 16ot;
 }
 
 @font-face {
@@ -438,7 +442,7 @@
 }
 
 * {
-  font-family: Font;
+  font-family: FontBook;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -469,6 +473,10 @@
 
   .md\:mt-4 {
     margin-top: 1rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
   }
 
   .md\:block {
@@ -531,6 +539,10 @@
     gap: 7rem;
   }
 
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:space-y-1 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -588,14 +600,13 @@
     font-family: Font;
   }
 
+  .md\:font-\[FontBook\] {
+    font-family: FontBook;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-\[18px\] {
@@ -613,20 +624,19 @@
   .md\:text-\[54px\] {
     font-size: 54px;
   }
+
+  .md\:text-\[64px\] {
+    font-size: 64px;
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:max-w-xs {
     max-width: 20rem;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .lg\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .lg\:text-\[64px\] {
@@ -636,14 +646,6 @@
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[33px\] {
-    font-size: 33px;
-  }
-
-  .lg\:text-\[18px\] {
-    font-size: 18px;
   }
 }
 
