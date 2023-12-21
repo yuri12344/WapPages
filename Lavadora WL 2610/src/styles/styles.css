@@ -299,17 +299,17 @@
 
 .object-contain {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .object-center {
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 .p-8 {
@@ -361,12 +361,13 @@
   text-align: end;
 }
 
-.text-\[12pt\] {
-  font-size: 12pt;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-\[13pt\] {
-  font-size: 13pt;
+.text-\[12pt\] {
+  font-size: 12pt;
 }
 
 .text-\[16pt\] {
@@ -377,9 +378,22 @@
   font-size: 19pt;
 }
 
+.text-base {
+  font-size: 16px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-[12pt] {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[13pt\] {
+  font-size: 13pt;
 }
 
 .uppercase {
@@ -626,6 +640,11 @@
     line-height: 2rem;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-\[18px\] {
     font-size: 18px;
   }
@@ -638,12 +657,20 @@
     font-size: 33px;
   }
 
+  .md\:text-\[54px\] {
+    font-size: 54px;
+  }
+
+  .md\:text-base {
+    font-size: 16px;
+  }
+
   .md\:text-\[34px\] {
     font-size: 34px;
   }
 
-  .md\:text-\[54px\] {
-    font-size: 54px;
+  .md\:text-\[\] {
+    color: ;
   }
 }
 
@@ -675,20 +702,20 @@
   }
 }
 
-.\[\&\>\*\]\:mb-8>* {
+.\[\&\>\*\]\:mb-8 > * {
   margin-bottom: 2rem;
 }
 
-.\[\&\>\*\]\:w-full>* {
+.\[\&\>\*\]\:w-full > * {
   width: 100%;
 }
 
-.\[\&\>\*\]\:max-w-6xl>* {
+.\[\&\>\*\]\:max-w-6xl > * {
   max-width: 72rem;
 }
 
 @media (min-width: 768px) {
-  .md\:\[\&\>\*\]\:mb-32>* {
+  .md\:\[\&\>\*\]\:mb-32 > * {
     margin-bottom: 8rem;
   }
 }
