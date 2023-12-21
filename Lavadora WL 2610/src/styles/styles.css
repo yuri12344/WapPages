@@ -62,6 +62,58 @@
   top: 1rem;
 }
 
+.bottom-\[38\%\] {
+  bottom: 38%;
+}
+
+.bottom-\[15\.5\%\] {
+  bottom: 15.5%;
+}
+
+.bottom-\[61\%\] {
+  bottom: 61%;
+}
+
+.bottom-\[59\%\] {
+  bottom: 59%;
+}
+
+.bottom-\[74\%\] {
+  bottom: 74%;
+}
+
+.bottom-\[76\%\] {
+  bottom: 76%;
+}
+
+.bottom-\[30\%\] {
+  bottom: 30%;
+}
+
+.bottom-\[40\%\] {
+  bottom: 40%;
+}
+
+.bottom-\[39\%\] {
+  bottom: 39%;
+}
+
+.bottom-\[38\.5\%\] {
+  bottom: 38.5%;
+}
+
+.bottom-\[64\%\] {
+  bottom: 64%;
+}
+
+.bottom-\[65\%\] {
+  bottom: 65%;
+}
+
+.bottom-\[16\%\] {
+  bottom: 16%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -138,6 +190,14 @@
   height: 100%;
 }
 
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[88\%\] {
+  height: 88%;
+}
+
 .max-h-44 {
   max-height: 11rem;
 }
@@ -196,6 +256,10 @@
 
 .max-w-\[38\%\] {
   max-width: 38%;
+}
+
+.max-w-\[30\%\] {
+  max-width: 30%;
 }
 
 .flex-col {
@@ -299,17 +363,17 @@
 
 .object-contain {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .object-center {
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 
 .p-8 {
@@ -361,13 +425,12 @@
   text-align: end;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-\[12pt\] {
   font-size: 12pt;
+}
+
+.text-\[13pt\] {
+  font-size: 13pt;
 }
 
 .text-\[16pt\] {
@@ -378,22 +441,9 @@
   font-size: 19pt;
 }
 
-.text-base {
-  font-size: 16px;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-[12pt] {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-\[13pt\] {
-  font-size: 13pt;
 }
 
 .uppercase {
@@ -425,31 +475,31 @@
 @font-face {
   font-family: FontLight;
 
-  src: url(./Uni_Sans/Uni_Sans_Light.ttf);
+  src: url(./fonts/Uni_Sans_Light.ttf);
 }
 
 @font-face {
   font-family: Font;
 
-  src: url(./Uni_Sans/Uni_Sans.ttf);
+  src: url(./fonts/Uni_Sans.ttf);
 }
 
 @font-face {
   font-family: FontSemiBold;
 
-  src: url(./Uni_Sans/Uni_Sans_SemiBold.ttf);
+  src: url(./fonts/Uni_Sans_SemiBold.ttf);
 }
 
 @font-face {
   font-family: FontBold;
 
-  src: url(./Uni_Sans/Uni_Sans_Bold.ttf);
+  src: url(./fonts/Uni_Sans_Bold.ttf);
 }
 
 @font-face {
   font-family: FontBook;
 
-  src: url(./Uni_Sans/Uni_Sans_Book.ttf);
+  src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
 .font-light {
@@ -640,11 +690,6 @@
     line-height: 2rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-\[18px\] {
     font-size: 18px;
   }
@@ -657,20 +702,12 @@
     font-size: 33px;
   }
 
-  .md\:text-\[54px\] {
-    font-size: 54px;
-  }
-
-  .md\:text-base {
-    font-size: 16px;
-  }
-
   .md\:text-\[34px\] {
     font-size: 34px;
   }
 
-  .md\:text-\[\] {
-    color: ;
+  .md\:text-\[54px\] {
+    font-size: 54px;
   }
 }
 
@@ -702,20 +739,20 @@
   }
 }
 
-.\[\&\>\*\]\:mb-8 > * {
+.\[\&\>\*\]\:mb-8>* {
   margin-bottom: 2rem;
 }
 
-.\[\&\>\*\]\:w-full > * {
+.\[\&\>\*\]\:w-full>* {
   width: 100%;
 }
 
-.\[\&\>\*\]\:max-w-6xl > * {
+.\[\&\>\*\]\:max-w-6xl>* {
   max-width: 72rem;
 }
 
 @media (min-width: 768px) {
-  .md\:\[\&\>\*\]\:mb-32 > * {
+  .md\:\[\&\>\*\]\:mb-32>* {
     margin-bottom: 8rem;
   }
 }
