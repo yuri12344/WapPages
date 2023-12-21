@@ -673,6 +673,10 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .lg\:text-\[33px\] {
+    font-size: 33px;
+  }
 }
 
 .\[\&\>\*\]\:mb-8>* {
