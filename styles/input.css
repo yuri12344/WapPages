@@ -43,17 +43,10 @@
   font-family: FontBook;
 }
 
-* {
-  font-family: FontBook;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .--title {
-  @apply font-bold text-title md:text-title-md;
+  @apply font-bold text-black text-title md:text-title-md;
 }
 
 .--body {
-  @apply text-body text-zinc-400 md:text-body-md;
+  @apply font-book text-body text-zinc-400 md:text-body-md;
 }
