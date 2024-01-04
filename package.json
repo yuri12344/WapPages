@@ -5,6 +5,7 @@
     "wl2600D": "npx tailwindcss -i ./styles/input.css -o ./pages/LavadoraWL2600D/styles/styles.css --watch --minify",
     "wl2610": "npx tailwindcss -i ./styles/input.css -o ./pages/LavadoraWL2610/styles/styles.css --watch --minify",
     "wl1820": "npx tailwindcss -i ./styles/input.css -o ./pages/LavadoraWL1820/styles/styles.css --watch --minify",
+    "wl1820D": "npx tailwindcss -i ./styles/input.css -o ./pages/LavadoraWL1820D/styles/styles.css --watch --minify",
     "K21CH01": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21CH01/styles/styles.css --watch --minify",
     "K21ID01": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID01/styles/styles.css --watch --minify",
     "asphandson": "npx tailwindcss -i ./styles/input.css -o ./pages/AspiradorHandson/styles/styles.css --watch --minify"
