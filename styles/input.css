@@ -50,3 +50,7 @@
 .--body {
   @apply font-book text-body text-zinc-400 md:text-body-md;
 }
+
+.--product_info * {
+  box-sizing: border-box;
+}
