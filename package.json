@@ -13,7 +13,8 @@
     "CH02": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21CH02/styles/styles.css --watch --minify",
     "ID01": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID01/styles/styles.css --watch --minify",
     "ID02": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID02/styles/styles.css --watch --minify",
-    "ID03": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID03/styles/styles.css --watch --minify"
+    "ID03": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID03/styles/styles.css --watch --minify",
+    "KT01": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21KT01/styles/styles.css --watch --minify"
   },
   "devDependencies": {
     "cssnano": "^6.0.2",
