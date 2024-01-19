@@ -15,6 +15,7 @@
     "ID02": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID02/styles/styles.css --watch --minify",
     "ID03": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21ID03/styles/styles.css --watch --minify",
     "KT01": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPK21KT01/styles/styles.css --watch --minify",
+    "BT02": "npx tailwindcss -i ./styles/input.css -o ./pages/WAP21VK21BT02/styles/styles.css --watch --minify",
     "W-250": "npx tailwindcss -i ./styles/input.css -o ./pages/WAPMMAW-250/styles/styles.css --watch --minify"
   },
   "devDependencies": {
