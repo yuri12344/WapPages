@@ -64,12 +64,10 @@
 
 .splide__wrapper .splide .card__title {
   font-size: 13px;
-  font-family: UniSansBold;
 }
 
 .splide__wrapper .splide .card__description {
   text-align: center;
-  font-family: UniSansBook;
   opacity: 0;
   margin-top: 16px;
   width: 130%;
