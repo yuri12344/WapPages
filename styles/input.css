@@ -37,10 +37,12 @@
 
 .font-bold {
   font-family: FontBold;
+  font-weight: normal;
 }
 
 .font-book {
   font-family: FontBook;
+  font-weight: normal;
 }
 
 .--title {
