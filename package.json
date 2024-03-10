@@ -5,6 +5,7 @@
     "HSM": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/HSMax/styles/styles.css --watch --minify",
     "ECORAPIDO": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/Ecorapido/styles/styles.css --watch --minify",
     "ANTIODOR": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/Antiodor/styles/styles.css --watch --minify",
+    "LIMPAMB": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/LimpaMB/styles/styles.css --watch --minify",
     "WL2660": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/WL2660/styles/styles.css --watch --minify",
     "WL2660D": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/WL2660D/styles/styles.css --watch --minify",
     "WL4000": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/WL4000/styles/styles.css --watch --minify",
