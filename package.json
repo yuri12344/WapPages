@@ -4,6 +4,7 @@
     "W95": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/W95/styles/styles.css --watch --minify",
     "HSM": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/HSMax/styles/styles.css --watch --minify",
     "ECORAPIDO": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/Ecorapido/styles/styles.css --watch --minify",
+    "WL2660": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/WL2660/styles/styles.css --watch --minify",
     "WL1820BU": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/WL1820BU/styles/styles.css --watch --minify",
     "WL1820BUD": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/WL1820BUD/styles/styles.css --watch --minify",
     "U2": "npx tailwindcss -i ./styles/input.css -o ./pages/temp02/AirFlowU2/styles/styles.css --watch --minify"
