@@ -22,12 +22,12 @@
             @click="showVideo = true"
             src="./images/cover_video.png"
             alt="Video Thumbnail"
-            class="hidden object-cover w-full h-full mt-10 md:block" />
+            class="hidden object-cover w-full h-full mx-auto mt-10 max-w-vtex md:block" />
           <iframe
             x-show="showVideo"
             loading="lazy"
             :src="showVideo ? 'https://www.youtube.com/embed/FkZ0bcu_Hwk?enablejsapi=1&autoplay=1' : ''"
-            class="w-full mt-10 m-auto h-[40rem] hidden md:block"
+            class="w-full mt-10 m-auto max-w-vtex h-[40rem] hidden md:block"
             frameborder="0"
             allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
